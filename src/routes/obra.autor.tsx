@@ -4,8 +4,8 @@ import { Placeholder, SectionPage } from "@/components/SectionPage";
 export const Route = createFileRoute("/obra/autor")({
   head: () => ({
     meta: [
-      { title: "Autor y Biografía — [Título de la Obra]" },
-      { name: "description", content: "Vida y trayectoria del autor de la obra literaria." },
+      { title: "Arthur Schopenhauer- Biografia" },
+      { name: "description", content: "Vida y trayectoria del Arthur Schopenhauer" },
       { property: "og:title", content: "Autor y Biografía" },
       { property: "og:description", content: "Vida y trayectoria del autor." },
     ],
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/obra/autor")({
         </div>
       </div>
       <h3 className="font-display text-xl mt-4">Biografía</h3>
-      <Placeholder>Redacta aquí la biografía del autor: infancia, formación, influencias, hitos vitales y su relación con la obra analizada.</Placeholder>
+      <Placeholder>biografia: fue un filósofo alemán, máximo representante del pesimismo filosófico y clave en el tránsito del idealismo al vitalismo. Su obra cumbre, El mundo como voluntad y representación (1819), expone que el mundo está regido por una voluntad ciega e insaciable que es la raíz de todo dolor..</Placeholder>
       <h3 className="font-display text-xl">Obras destacadas</h3>
       <Placeholder>Lista de obras principales del autor con año de publicación.</Placeholder>
     </SectionPage>
